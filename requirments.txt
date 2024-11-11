@@ -1,0 +1,23 @@
+plotly==5.24.1
+plotly-express
+plotly-geo==1.0.0
+notebook>=5.3
+dash
+geopandas
+
+
+# Optional
+shapely
+fiona
+pyproj
+folium
+mapbox
+ipywidgets>=7.6
+jupyterlab>=3
+kaleido
+
+
+# Installs with plotly-express
+pandas
+numpy
+
