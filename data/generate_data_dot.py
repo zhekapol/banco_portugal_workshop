@@ -9,9 +9,9 @@ lat_min, lat_max = 37.5, 42.0  # Latitude range for mainland Portugal
 lon_min, lon_max = -9.6, -6.0  # Longitude range for mainland Portugal
 
 # Generate 5000 random latitudes, longitudes, and purchases
-latitudes = np.random.uniform(lat_min, lat_max, 5000)
-longitudes = np.random.uniform(lon_min, lon_max, 5000)
-purchases = np.random.randint(0, 1000, 5000)  # Purchases between 0 and 1000
+latitudes = np.random.uniform(lat_min, lat_max, 500)
+longitudes = np.random.uniform(lon_min, lon_max, 500)
+purchases = np.random.randint(0, 1000, 500)  # Purchases between 0 and 1000
 
 # Create the DataFrame
 df = pd.DataFrame({
